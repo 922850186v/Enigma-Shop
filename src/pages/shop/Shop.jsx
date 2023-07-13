@@ -12,7 +12,7 @@ const Shop = () => {
     <Wrapper>
         
         <Heading className='d-flex justify-content-center'>
-        <h3 >Popular Items</h3>
+        <h3 >My Items</h3>
         </Heading>
         <Clear>
         <button className='btn btn-danger' onClick={()=>clearItems()} >Clear Cart</button>
