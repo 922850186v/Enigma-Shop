@@ -14,7 +14,6 @@ export const ShopContextProvider=(props)=>{
         console.log(data);
         setFetchedProducts(data);
         };
-    
 
     useEffect(()=>{
         fetchData();
